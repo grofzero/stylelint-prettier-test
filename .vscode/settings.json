@@ -1,0 +1,20 @@
+{
+    "editor.insertSpaces": false,
+    "editor.formatOnType": false,
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    },
+    "stylelint.validate": [
+        "scss",
+        "vue"
+    ],
+    "stylelint.configBasedir": "./frontend",
+    "prettier.enableDebugLogs": true,
+    "vue.server.configFilePath": "./frontend/volar.config.js",
+    "prettier.configPath": "./frontend/.prettierrc.json"
+}
